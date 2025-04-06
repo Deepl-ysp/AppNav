@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AppNav</title>
+    <link rel="shortcut icon" href="src/imge/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>AppNav</h1>
+            <ul>
+                <li><button id="Web">网站</button></li>
+                <li><button id="Win">Win</button></li>
+                <li><button id="Mac">Mac</button></li>
+                <li><button id="Linux">Linux</button></li>
+                <li><button id="Android">安卓</button></li>
+                <li><button id="iOS">iOS</button></li>
+            </ul>
+            <div class="active" id="headeractive"></div>
+        </nav>
+    </header>
+    <main>
+        <div class="filter">
+            <ul>
+                <li><button id="All" class="label">全部</button></li>
+                <li><button id="Tool" class="label">工具</button></li>
+                <li><button id="Game" class="label">游戏</button></li>
+                <li><button id="Learn" class="label">学习</button></li>
+                <li><button id="Forum" class="label">论坛</button></li>
+                <li><button id="Amusement" class="label">娱乐</button></li>
+            </ul>
+            <div class="active" id="filteractive"></div>
+            <div class="search">
+                <input type="text" id="search" placeholder="搜索项目名称">
+                <button id="searchbtn">搜索</button>
+            </div>
+        </div>
+        <div id="projectlist">
+            <img style="width:50vw;" src="src/imge/loading.gif">
+        </div>
+    </main>
+    <footer>
+        <div class="footer-logo">
+            <img src="src/imge/AppNavlogo.png" alt="">
+            <img src="src/imge/logotext.png" alt="">
+            <img src="src/imge/logo.png" alt="">
+        </div>
+        <div class="footer-info">
+            <h1 class="active1">站点介绍</h1>
+            <p>版权归天橙工作室所有 ©2025</p>
+            <p>站点技术由天橙工作室提供</p>
+            <p>站点地址:<a target="_blank" href="http://AppNav.czgrzx.cn">http://AppNav.czgrzx.cn</a></p>
+            <p>站点源码地址:<a target="_blank" href="https://github.com/Orange-Studio/AppNav">https://github.com/Orange-Studio/AppNav</a></p>
+            <h1>站长信息</h1>
+            <p>站长 老橙子ACK</p>
+            <p>站长QQ 1417278970</p>
+            <p>站长邮箱 : <a href="mailto:yspydys@163.com">yspydys@163.com</a></p>
+            <p>工作室邮箱 : <a href="mailto:tcgzsack@gmail.com" class="footer-icon">tcgzsack@gmail.com</a></p>
+            <p><a target="_blank" href="https://beian.miit.gov.cn/">暂未备案</a></p>
+        </div>
+    </footer>
+</body>
+<script src="./js/index.js"type="module"></script>
+</html>

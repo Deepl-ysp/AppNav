@@ -1,0 +1,41 @@
+.active{
+    background-color: #767676;
+    z-index: 1;
+    height: 8px;
+    width: 0;
+    border-radius: 3rem;
+    transition: all 0.3s ease;
+    position: absolute;
+    left: 0;
+    bottom: 1rem;
+}
+
+button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    font-size: 1.5rem;
+    color: #333;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+input{
+    margin-left: 5%;
+    margin-right: 1.5%;
+    width: 80%;
+    height: 2rem;
+    border-radius: 3rem;
+    padding-left: 1.5rem;
+    font-size: 1rem;    
+    color: #333;
+    transition: all 0.3s ease;
+}
+
+input:focus{
+    outline: none;
+    transform: scale(1.05);
+    font-size: 1.5rem;
+    background-color: rgba(177, 219, 255, 0.198);
+}
